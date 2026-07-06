@@ -1,5 +1,11 @@
 package com.syndex.sharedpublic {
 	public class DateUtils {
+		/**
+		 * Get a standard ISO date string from a Date object 
+		 * @param date The input date
+		 * @return 
+		 * 
+		 */		
 		public static function getISOString(date:Date):String {
 			var pad:Function = function(num:int):String {
 				return (num < 10) ? "0" + num : num.toString();
